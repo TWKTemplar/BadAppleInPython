@@ -3,8 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import random
-import math
-import time
 def Render(numberOfImagesToRender):
     if(numberOfImagesToRender <=0):
         numberOfImagesToRender = 1
@@ -44,4 +42,4 @@ def GetInputImagePath(number):
     imageName = str(number)
     imagePath = os.path.join(imageFolder, imageName + ".png")
     return imagePath
-Render(499)
+Render(2107)
