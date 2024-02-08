@@ -36,7 +36,7 @@ def GetSourceImagePath():
     if not os.path.exists("BadApple"):
         os.makedirs("BadApple")
     imageFolder = "BadApple"
-    imageName = "BadApple0086"
+    imageName = "86"
     imagePath = os.path.join(imageFolder, imageName + ".png")
     return imagePath
 Render(GetSourceImagePath())
